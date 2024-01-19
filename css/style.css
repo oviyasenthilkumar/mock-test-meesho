@@ -30,12 +30,12 @@ img{
 	border:1px solid #b5b5b5;
 }
 
-.col-2-btn button{
-	width:49%;
-	padding:10px 5px;
-	background-color:#fff;
-	border:1px solid #000;
-}
+/* .col-2-btn button{ */
+	/* width:49%; */
+	/* padding:10px 5px; */
+	/* background-color:#fff; */
+	/* border:1px solid #000; */
+/* } */
 .col-2-btn button:hover{
 	background-color:#d95db0;
 	border:none;
@@ -111,8 +111,11 @@ img{
 	justify-content:space-around;
 	padding-top:18px;
 }
+.cnt4-info{
+	display:flex;
+	justify-content:space-around;
+}
  .col-3-cnt4 button{
-	 margin-left:7rem;
 	 padding:8px 13px;
 	 color:#e362ba;
 	 border:1px solid #e362ba;
@@ -124,22 +127,11 @@ img{
 	 padding:10px 8px;
 	 background-color:rgba(208, 226, 242, 0.8);
  }
-.col-3-cnt4{
-	 position:relative;
- }
- #logo{
-	position: absolute;
-    bottom:4rem;
-	right:22rem;
+ .logo1{
 	color:#b0438d;
 	background-color:#e8c3dc;
 	font-size:10px;
  }
- .logo1{
-	 color:#b0438d;
-	 background-color:#e8c3dc;
-	 font-size:10px;
- }
  img:hover{
-		border:1px solid #b0438d;
+	border:1px solid #b0438d;
  }
