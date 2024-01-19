@@ -1,16 +1,24 @@
 /*mobile view*/
 @media (min-width:320px){
 .col-1{
-	width:20%;
+	width:15%;
 	padding: 25px 10px;
 }
 .col-2{
-	width:80%;
+	width:85%;
 }	
 .col-3{
 	width:100%;
 }
-
+.col-2-btn button{
+	width:40%;
+	padding:10px 5px;
+	background-color:#fff;
+	border:1px solid #000;
+}
+.cnt4-info span{
+	font-size:10px;
+}
 }
 
 /*tab view*/
@@ -25,7 +33,15 @@
 .col-3{
 	width:100%;
 }
-
+.col-2-btn button{
+	width:49%;
+	padding:10px 5px;
+	background-color:#fff;
+	border:1px solid #000;
+}
+.cnt4-info span{
+	font-size:20px;
+}
 }
 
 
@@ -34,9 +50,18 @@
 @media (min-width:960px){
 .col-1{
 	width:15%;
-	padding:5rem ;
+	padding:4rem ;
 }
 .col-2, .col-3{
 	width:35%;
+}
+.col-2-btn button{
+	width:49%;
+	padding:10px 5px;
+	background-color:#fff;
+	border:1px solid #000;
+}
+.cnt4-info span{
+	font-size:22px;
 }
 }
